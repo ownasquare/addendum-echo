@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "validated_at": "2026-07-27T14:32:40-07:00",
+  "proof_class": "local_open_source_experiment",
+  "environment": {
+    "operating_system": "macOS",
+    "runtime": "Node.js with npm",
+    "browser": "Chromium through Playwright and the in-app Browser",
+    "data_integrity": "invented_fixture_data_only"
+  },
+  "scope": [
+    "bounded local PDF and text extraction",
+    "deterministic proposal classification",
+    "issued addendum identifier extraction",
+    "contextual proposal evidence matching",
+    "source-linked browser results",
+    "local Markdown evidence report",
+    "friendly recovery states",
+    "one-screen interaction contract",
+    "keyboard and automated accessibility behavior",
+    "phone, tablet, and desktop responsive behavior",
+    "automatic light and dark appearance",
+    "package, dependency, license, secret-shape, and repository policy"
+  ],
+  "results": {
+    "tests_passed": true,
+    "unit_test_count": 12,
+    "playwright_test_count": 7,
+    "format_check_passed": true,
+    "lint_check_passed": true,
+    "type_check_passed": true,
+    "build_passed": true,
+    "project_audit_passed": true,
+    "dependency_audit_passed": true,
+    "dependency_vulnerability_count": 0,
+    "secret_scan_passed": true,
+    "license_check_passed": true,
+    "clean_install_passed": true,
+    "package_dry_run_passed": true,
+    "git_diff_check_passed": true,
+    "browser_proof": {
+      "status": "passed_with_documented_fallback",
+      "in_app_browser": [
+        "page identity and meaningful DOM passed",
+        "no framework overlay was present",
+        "console warning and error log was empty",
+        "two synthetic local files were selected through the chooser",
+        "the dominant action produced the expected ACKNOWLEDGED result",
+        "the limitation and report download were visible"
+      ],
+      "fallback": "After the local server stopped between captures, the Browser entered its connection-error page and its URL policy blocked a return to localhost. The task explicitly permits Playwright; repository Playwright completed the corrected responsive and appearance matrix."
+    },
+    "accessibility_responsive_proof": {
+      "status": "passed",
+      "axe_violations": 0,
+      "keyboard_primary_action": "passed",
+      "horizontal_overflow": "none at 390, 820, and 1440 CSS pixels",
+      "screenshots_inspected": 7,
+      "screenshots": [
+        "/tmp/addendum-echo-proof/desktop-light-hover.png",
+        "/tmp/addendum-echo-proof/desktop-light-success.png",
+        "/tmp/addendum-echo-proof/desktop-dark-success.png",
+        "/tmp/addendum-echo-proof/tablet-light-success.png",
+        "/tmp/addendum-echo-proof/tablet-dark-success.png",
+        "/tmp/addendum-echo-proof/phone-light-success.png",
+        "/tmp/addendum-echo-proof/phone-dark-success.png"
+      ]
+    }
+  },
+  "commands": [
+    "npm ci",
+    "npm run format",
+    "npm run validate",
+    "npm pack --dry-run",
+    "git diff --check"
+  ],
+  "observations": [
+    "A real searchable PDF was generated from invented text and parsed in the browser workflow.",
+    "Generic all-addenda language remained REVIEW because it did not visibly name the identifier.",
+    "The first full validation stopped on two unformatted Markdown files; formatting was applied and the complete validation then passed.",
+    "Initial dependency resolutions exposed current glob, browser-install, Vite, and Vitest advisories; patched locked versions and transitive overrides reduced npm audit to zero vulnerabilities.",
+    "Manual screenshot inspection found a low-readability emulated light-hover state; explicit light and dark hover tokens fixed it, and the new axe and screenshot proof passed.",
+    "No warnings were suppressed. The Playwright runner removes conflicting inherited color-control variables before spawning so Node emits no irrelevant NO_COLOR/FORCE_COLOR warning."
+  ],
+  "proof_boundaries": {
+    "local": "passed",
+    "public_source_publication": "pending_scoped_publisher",
+    "hosted_development": "not_attempted",
+    "production": "not_attempted",
+    "provider_dashboard": "not_attempted",
+    "payment_revenue": "not_attempted",
+    "buyer_usage_demand": "not_proven"
+  },
+  "warning_issue_triage": {
+    "status": "resolved_or_documented",
+    "suppression": "not_suppressed",
+    "details": "Formatting, dependency, test-boundary, type, hover-readability, and Browser-fallback issues are recorded above. All release gates now pass."
+  }
+}

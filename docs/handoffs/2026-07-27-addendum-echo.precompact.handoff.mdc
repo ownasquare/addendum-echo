@@ -1,0 +1,30 @@
+# Addendum Echo Lane 13 Pre-Compact Handoff
+
+This repository handoff mirrors the active automation snapshot at:
+
+`/Users/fortunevieyra/.codex/automations/1000-apps-lane-13-property-facilities-construction/handoff.mdc`
+
+Status: implementation has not begun. Qualification, immutable claim, lane activation, persisted goal creation, and implementation planning are complete. Continue from the first incomplete implementation queue item and preserve the active six-hour deadline.
+
+## Current identity
+
+- App: Addendum Echo
+- Claim: `20260727T140806-0700-lane13-addendum-echo`
+- Primary workflow: drop issued addenda plus one final proposal, run one dominant action, receive source-linked `ACKNOWLEDGED` or `REVIEW` results.
+- Boundary: visible identifier acknowledgment only, not a legal-responsiveness determination.
+
+## Immediate work
+
+1. Implement the Vite, vanilla JavaScript, and PDF.js local workflow.
+2. Add Vitest, Playwright, axe, lint, type, format, dependency, secret, and license gates.
+3. Validate phone, tablet, desktop, light, dark, success, and friendly failure states.
+4. Finish required documentation, validation receipt, clean `main` commit, public GitHub publication, registry record, and lane closeout.
+
+## Preservation rules
+
+- One screen, one file input surface, exactly one oversized primary action.
+- No credentials, settings, authentication, uploads, hosted deployment, or additional product workflow.
+- Do not claim legal responsiveness, buyers, usage, payment, revenue, or market proof.
+- Use Playwright for E2E and the Browser connector first for rendered QA.
+
+Freshness: High - recently verified in this session.

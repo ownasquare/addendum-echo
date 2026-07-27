@@ -1,0 +1,241 @@
+---
+description: "Continuation package for the Addendum Echo local open-source experiment"
+alwaysApply: false
+---
+
+# Addendum Echo continuation package
+
+## INVENTORY NEXT ITEMS
+
+No new product or integration defects were found inside the accepted version-one scope.
+
+Scan evidence:
+
+- Read every source module under `src/` and every unit/E2E test under `tests/`.
+- Exercised searchable PDF success, exact identifier success, generic acknowledgment review,
+  unsupported type recovery, keyboard initiation, report download visibility, and automated axe
+  checks.
+- Captured and manually inspected phone, tablet, and desktop result states in automatic light and
+  dark appearances plus the corrected desktop light hover state.
+- Checked for horizontal overflow at all three responsive widths.
+- Checked package scripts, locked dependencies, project audit, MIT license, governance documents,
+  local-data boundary, and the no-Cypress-E2E policy.
+- Verified that the system has no application backend, authentication, provider, database,
+  telemetry, payment, upload, hosted, or production integration to reconcile.
+
+Deliberately deferred, not defects:
+
+- OCR, bid-scope comparison, procurement integrations, hosted history, collaboration, accounts,
+  payments, and analytics are outside the immutable claim.
+- The current public pain record does not prove buyer intent, usage, demand, willingness to pay, or
+  product-market fit.
+
+## 1. Project Identity & Strategic Context
+
+Confidence: ✅ High — recently verified in this session.
+
+- Project: Addendum Echo.
+- Repository:
+  `/Users/fortunevieyra/Documents/Github/ai-projects/factory-apps/lane-13/addendum-echo`.
+- Automation: `1000-apps-lane-13-property-facilities-construction`.
+- Atomic claim: `20260727T140806-0700-lane13-addendum-echo`.
+- Purpose: help a small public-works estimator see whether one final proposal visibly names every
+  issued addendum identifier.
+- Success criteria: one screen, one multi-file surface, one dominant action, deterministic
+  source-linked output, local operation without credentials, full local validation, and verified
+  public source publication.
+- Hard constraints: no legal-responsiveness conclusion, no hosted deployment, no provider,
+  no payments, invented fixtures only, and MIT licensing.
+- Stack: Vite, TypeScript, vanilla DOM, PDF.js, Vitest, Playwright, axe-core, ESLint, and Prettier.
+
+## 2. Current System State & Architecture Map
+
+Confidence: ✅ High — recently verified in this session.
+
+Implemented:
+
+- `src/files.ts` bounds and extracts local searchable PDF/text input.
+- `src/analyze.ts` classifies one proposal, extracts issued IDs, preserves snippets, detects
+  duplicates, and produces `ACKNOWLEDGED` or `REVIEW`.
+- `src/report.ts` creates the local Markdown evidence download.
+- `src/main.ts` owns selection, progress, friendly recovery, safe DOM output, and download state.
+- `src/styles.css` owns the mobile-first one-screen hierarchy and automatic appearance.
+- `tests/` covers pure logic, real PDF extraction, the browser workflow, accessibility, keyboard,
+  failures, overflow, appearance, and responsive screenshots.
+
+Flow:
+
+```text
+local selected files
+  -> input bounds
+  -> local PDF/text extraction
+  -> proposal scoring and ambiguity stop
+  -> issued identifier extraction
+  -> contextual proposal match
+  -> source-linked ACKNOWLEDGED or REVIEW
+  -> local Markdown download
+```
+
+Broken or flaky product behavior: none known. Publication and registry closeout remain pending at
+the time this handoff draft was created and must be updated before final completion.
+
+## 3. Critical Decisions & Reasoning History
+
+Confidence: ✅ High — recently verified in this session.
+
+- Narrowed the job to visible identifier evidence because full bid responsiveness depends on legal
+  and solicitation context.
+- Used deterministic local rules because this transformation needs reproducibility and no paid or
+  credentialed provider.
+- Stops on an equal proposal-score tie instead of adding a selector or guessing.
+- Keeps generic “all addenda” language at `REVIEW`; exact IDs are the product promise.
+- Defers OCR because it adds a second probabilistic confidence system and violates the smallest
+  complete product target.
+- Keeps screenshots outside Git; the repeatable Playwright matrix is the durable proof.
+
+## 4. Recent Work & Iteration Log (High Priority)
+
+Confidence: ✅ High — recently verified in this session.
+
+- Compared twelve Lane 13 candidates against every existing AI Projects repository, claim,
+  completed record, app directory, and lane state; Addendum Echo passed all scoring floors.
+- Collected current public pain/rule/workaround evidence and reserved an immutable atomic claim.
+- Activated Lane 13’s state and one non-renewable six-hour window.
+- Implemented the complete product, 12 unit tests, and 7 Playwright tests.
+- Resolved a Vitest/Playwright collection boundary, missing types, current dependency advisories,
+  and a light-hover visual contrast problem without warning suppression.
+- Used the in-app Browser first for page identity, DOM, console, upload, action, result, and initial
+  screenshots. After its connection-error page caused localhost policy blocking, the explicitly
+  permitted Playwright path completed the corrected matrix.
+- Added all required open-source, security, architecture, product, completion, and continuation
+  documents.
+
+## 5. Testing, Validation & Quality Framework
+
+Confidence: ✅ High — recently verified in this session.
+
+- Unit: 12 Vitest cases across normalization, evidence matching, ambiguity, duplicate sources,
+  input bounds, and report limitation.
+- E2E: 7 Playwright tests for contract, real searchable PDF extraction, exact evidence, generic
+  review, friendly recovery, keyboard, axe, responsive overflow, six appearance captures, and
+  hover readability.
+- Browser observation: title/URL, meaningful DOM, no framework overlay, zero console warnings or
+  errors, local file chooser, completed status, result evidence, and download link.
+- Visual proof directory: `/tmp/addendum-echo-proof`.
+- Required final gates: format, lint, TypeScript, unit, build, project audit, npm audit, E2E,
+  clean-install smoke, Git diff check, and committed-HEAD smoke.
+- Exact final results belong in `docs/proof/validation-receipt.json`.
+
+## 6. Debugging History & Failure Modes
+
+Confidence: ✅ High — recently verified in this session.
+
+- The mandated automation guard command’s trailing `.` was rejected as an unsupported argument;
+  the exact supported command without it returned `decision=allow`.
+- Vitest initially collected Playwright specs; `vitest.config.ts` now limits it to unit tests.
+- TypeScript initially lacked Node and PDF declarations; `@types/node` plus the package’s typed
+  PDF entry resolved the issue.
+- Current advisories affected initial dependency resolutions; locked patched versions and
+  transitive overrides reduced `npm audit` to zero vulnerabilities.
+- Screenshot inspection found low readability in one emulated hover state; explicit
+  `--surface-hover` tokens fixed it and the new hover axe/screenshot proof passed.
+- The local Vite process ended between Browser captures; the in-app Browser then stayed on its
+  connection-error page and policy-blocked localhost. Playwright was the allowed fallback.
+- Expected input failures are missing/multiple proposal candidates, no readable addendum IDs,
+  unsupported types, image-only PDF text absence, and file size/count bounds.
+
+## 7. Established Processes & Effective Patterns
+
+Confidence: ✅ High — recently verified in this session.
+
+1. Run the resource guard and self-learning pre-run before repository inspection.
+2. Read lane state before each stage and never claim a second app while one is active.
+3. Qualify pain first, compare the full semantic fingerprint globally, then reserve atomically.
+4. Implement pure transformation modules before UI polish.
+5. Run focused tests, then render and interact through Browser, then use repository Playwright for
+   the durable E2E matrix.
+6. Inspect every screenshot and fix visual evidence rather than accepting automated checks alone.
+7. Separate local, public-source, hosted, production, provider, payment, and demand proof.
+8. Commit clean `main`, publish only through the scoped publisher, read back remote SHA/API state,
+   then write the immutable completed-app record.
+
+## 8. Risks, Technical Debt & Strict Preservation Rules
+
+Confidence: ✅ High — recently verified in this session.
+
+Risks:
+
+- Users may overread `ACKNOWLEDGED` as legal bid responsiveness despite the limitation.
+- Source snippets can contain sensitive bid content in the local result/download.
+- Proposal scoring is deliberately narrow and will stop on ambiguous final-file sets.
+
+Do Not Touch without explicit instruction:
+
+- Do not weaken the visible-evidence/legal-responsiveness limitation.
+- Do not upgrade generic “all addenda” language to exact evidence.
+- Do not add uploads, accounts, credentials, providers, payments, telemetry, or hosted storage to
+  the core path.
+- Do not remove input bounds or safe text-node rendering.
+- Do not add a selector, secondary page, settings, theme control, or extra dominant action.
+- Do not call public pain evidence demand, buyer, usage, payment, revenue, or product-market-fit
+  proof.
+- Do not deploy GitHub Pages or any application infrastructure.
+
+## 9. Key Artifacts & References
+
+Confidence: ✅ High — recently verified in this session.
+
+- Product contract: `docs/product/PRODUCT.md`.
+- Architecture: `docs/product/ARCHITECTURE.md`.
+- Decisions: `docs/product/DECISIONS.md`.
+- Completion: `docs/addendum-echo/2026-07-27-completion.md`.
+- Validation: `docs/proof/validation-receipt.json`.
+- Research dossier:
+  `/Users/fortunevieyra/Documents/Github/ai-projects/docs/1000-apps-100-days/runs/2026-07-27-lane-13-property-facilities-construction.md`.
+- Claim:
+  `/Users/fortunevieyra/Documents/Github/ai-projects/docs/1000-apps-100-days/registry/claims/20260727T140806-0700-lane13-addendum-echo.md`.
+- Lane state:
+  `/Users/fortunevieyra/Documents/Github/ai-projects/docs/1000-apps-100-days/state/lane-13.json`.
+- Proof screenshots: `/tmp/addendum-echo-proof`.
+
+## 10. Next Steps & Prioritized Backlog
+
+Confidence: ✅ High — recently verified in this session.
+
+Immediate closeout sequence:
+
+1. Run the complete release validation and clean-install smoke.
+2. Write and verify the machine-readable validation receipt.
+3. Create the coherent `main` commit and rerun the committed-HEAD smoke.
+4. Publish `ownasquare/addendum-echo` with the scoped publisher and verify public API/remote SHA.
+5. Write the immutable completed-app registry record and empty the lane queue.
+6. Complete state, goal, post-run learning, automation memory/TOML, parent completion doc, and
+   global handoff mirror.
+
+Future feature work is evidence-gated; there is no filler backlog.
+
+## 11. Continuation & Working Style Instructions
+
+Confidence: ✅ High — recently verified in this session.
+
+- Begin with the automation guard and current lane state.
+- Treat filesystem, Git, claim, registry, publisher receipt, and state-helper readback as current
+  truth.
+- Preserve one-outcome simplicity and deterministic, local behavior.
+- Use invented data only.
+- Verify actual browser behavior and inspect screenshots for every visible change.
+- Update focused tests, completion documentation, validation receipt, handoff, state, automation
+  memory, and registry when behavior changes.
+- Prefer an honest blocked or rejected record to scope expansion or unsupported proof claims.
+
+## 12. Confidence & Freshness Assessment
+
+Confidence: ✅ High — assessed in this session.
+
+- Sections 1–11 are high confidence from current files, test runs, Browser observations, and
+  inspected screenshots.
+- Final release validation, commit SHA, public repository readback, and lane completion are
+  pending and must be refreshed in this file.
+- Hosted, production, provider, payment, and demand status are high-confidence negative proof:
+  none was attempted or claimed.
+- Future willingness to pay is low-confidence hypothesis only.
