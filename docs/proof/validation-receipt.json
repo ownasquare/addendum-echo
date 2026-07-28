@@ -91,7 +91,7 @@
   ],
   "proof_boundaries": {
     "local": "passed",
-    "public_source_publication": "pending_scoped_publisher",
+    "public_source_publication": "passed_public_main",
     "hosted_development": "not_attempted",
     "production": "not_attempted",
     "provider_dashboard": "not_attempted",
@@ -102,5 +102,14 @@
     "status": "resolved_or_documented",
     "suppression": "not_suppressed",
     "details": "Formatting, dependency, test-boundary, type, hover-readability, and Browser-fallback issues are recorded above. All release gates now pass."
+  },
+  "publication_receipt": {
+    "repository_url": "https://github.com/ownasquare/addendum-echo",
+    "visibility": "public",
+    "default_branch": "main",
+    "verified_source_sha": "9ea72292c8e95e5d757a1a85a44def2b794a9877",
+    "local_remote_equal": true,
+    "api_readback": true,
+    "note": "The immutable global completed-app record stores the final evidence-only follow-up SHA because this receipt cannot name a commit that contains its own update."
   }
 }

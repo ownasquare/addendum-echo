@@ -76,8 +76,10 @@ local selected files
   -> local Markdown download
 ```
 
-Broken or flaky product behavior: none known. Publication and registry closeout remain pending at
-the time this handoff draft was created and must be updated before final completion.
+Broken or flaky product behavior: none known. Public source publication is verified at
+`https://github.com/ownasquare/addendum-echo`, with public visibility, default branch `main`, and
+equal local/remote publisher readback. Registry and lane closeout remain pending at the time of
+this evidence update.
 
 ## 3. Critical Decisions & Reasoning History
 
@@ -109,6 +111,9 @@ Confidence: ✅ High — recently verified in this session.
   permitted Playwright path completed the corrected matrix.
 - Added all required open-source, security, architecture, product, completion, and continuation
   documents.
+- Published the repository through the scoped publisher, corrected GitHub's missing initial
+  default-branch assignment with the same ownasquare-scoped authentication, and reran the
+  publisher to prove public visibility, default `main`, and equal local/remote SHA.
 
 ## 5. Testing, Validation & Quality Framework
 
@@ -190,6 +195,9 @@ Confidence: ✅ High — recently verified in this session.
 - Decisions: `docs/product/DECISIONS.md`.
 - Completion: `docs/addendum-echo/2026-07-27-completion.md`.
 - Validation: `docs/proof/validation-receipt.json`.
+- Public source: `https://github.com/ownasquare/addendum-echo`.
+- Validated implementation commit: `64effbe1f050a2a7d28b35d2cdf60d0025ea59cc`.
+- First fully verified publisher SHA: `9ea72292c8e95e5d757a1a85a44def2b794a9877`.
 - Research dossier:
   `/Users/fortunevieyra/Documents/Github/ai-projects/docs/1000-apps-100-days/runs/2026-07-27-lane-13-property-facilities-construction.md`.
 - Claim:
@@ -204,12 +212,9 @@ Confidence: ✅ High — recently verified in this session.
 
 Immediate closeout sequence:
 
-1. Run the complete release validation and clean-install smoke.
-2. Write and verify the machine-readable validation receipt.
-3. Create the coherent `main` commit and rerun the committed-HEAD smoke.
-4. Publish `ownasquare/addendum-echo` with the scoped publisher and verify public API/remote SHA.
-5. Write the immutable completed-app registry record and empty the lane queue.
-6. Complete state, goal, post-run learning, automation memory/TOML, parent completion doc, and
+1. Commit and republish this evidence-only documentation update.
+2. Write the immutable completed-app registry record and empty the lane queue.
+3. Complete state, goal, post-run learning, automation memory/TOML, parent completion doc, and
    global handoff mirror.
 
 Future feature work is evidence-gated; there is no filler backlog.
@@ -234,8 +239,9 @@ Confidence: ✅ High — assessed in this session.
 
 - Sections 1–11 are high confidence from current files, test runs, Browser observations, and
   inspected screenshots.
-- Final release validation, commit SHA, public repository readback, and lane completion are
-  pending and must be refreshed in this file.
+- Release validation and public repository readback are high-confidence current proof.
+- The final evidence-only SHA and lane completion are pending and must be stored in external state
+  and the immutable global completed-app record.
 - Hosted, production, provider, payment, and demand status are high-confidence negative proof:
   none was attempted or claimed.
 - Future willingness to pay is low-confidence hypothesis only.

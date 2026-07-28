@@ -67,7 +67,7 @@ The final validation receipt records:
 | Local source             | Full validation passed                                               |
 | Local workflow           | Invented PDF/text success and expected review/failure paths passed   |
 | Accessibility/responsive | axe, keyboard, overflow, and six appearance/viewport captures passed |
-| Public source repository | Filled after scoped publication and API readback                     |
+| Public source repository | Public ownasquare/addendum-echo; default main; API readback passed   |
 | Hosted development       | Not attempted                                                        |
 | Production application   | Not attempted                                                        |
 | Provider/dashboard       | Not attempted; no provider in the core path                          |
@@ -76,9 +76,15 @@ The final validation receipt records:
 
 ## Commit and push
 
-The containing commit cannot name its own SHA without changing it. The immutable completed-app
-registry and lane state record the final local and remote SHA after publication. The final closeout
-also lists every committed path and exact verification command.
+- Validated implementation commit: `64effbe1f050a2a7d28b35d2cdf60d0025ea59cc`.
+- Publisher validation-schema commit: `9ea72292c8e95e5d757a1a85a44def2b794a9877`.
+- Public repository: `https://github.com/ownasquare/addendum-echo`.
+- Visibility/default branch: public / `main`.
+
+The containing evidence update cannot name its own SHA without changing it. The immutable
+completed-app registry and lane state record the final equal local/remote SHA after this
+documentation update. The final closeout also lists every committed path and exact verification
+command.
 
 ## Known follow-up
 
