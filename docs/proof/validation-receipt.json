@@ -2,6 +2,13 @@
   "schema_version": 1,
   "validated_at": "2026-07-27T14:32:40-07:00",
   "proof_class": "local_open_source_experiment",
+  "tests_passed": true,
+  "secret_scan_passed": true,
+  "license_check_passed": true,
+  "browser_proof": {
+    "status": "passed",
+    "details": "In-app Browser interaction proof passed; repository Playwright completed the corrected responsive and appearance matrix after the documented Browser policy fallback."
+  },
   "environment": {
     "operating_system": "macOS",
     "runtime": "Node.js with npm",
